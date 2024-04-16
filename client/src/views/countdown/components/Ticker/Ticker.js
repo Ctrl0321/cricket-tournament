@@ -1,6 +1,6 @@
-import { TickerCell } from 'components/TickerCell';
-import { TickerSeparator } from 'components/TickerSeparator';
-import { useTicker } from 'hooks';
+import { TickerCell } from '../TickerCell';
+import { TickerSeparator } from '../TickerSeparator';
+import { useTicker } from '../../hooks';
 
 import style from './Ticker.module.scss';
 

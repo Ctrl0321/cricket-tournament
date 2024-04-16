@@ -1,9 +1,9 @@
-@import '_colours';
+@import "../../colours";
 
 .tickerShell {
     align-self: stretch;
     display: flex;
-    border: 1px solid $border-color;
+    //border: 1px solid $border-color;
     padding: 60px;
 
     .timeIsUp {
