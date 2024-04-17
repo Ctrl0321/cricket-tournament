@@ -14,3 +14,9 @@
         font-weight: 600;
     }
 }
+@media screen and (max-width: 768px) {
+    .tickerShell {
+        padding: 0;
+        margin: auto 2.5rem;
+    }
+}

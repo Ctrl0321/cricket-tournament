@@ -7,7 +7,7 @@ body{
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1px);
 }
 
 .navigation-container> img{
@@ -48,7 +48,7 @@ body{
 }
 .landing-banner-container{
   height: 100dvh;
-  background: url("./assets/banner.jpg") no-repeat center ;
+  background: url("./assets/BG.png") no-repeat center ;
   background-size: cover;
   color: white;
   font-family: "Inter Tight", sans-serif;
@@ -69,13 +69,12 @@ body{
   -webkit-text-stroke-width: 0px;
   font-size: 4.1vw;
   line-height: 1.07em;
+  font-family: "Inter Tight", sans-serif;
+
 
 }
 .first-header{
   margin-bottom: -40px;
-}
-.second-header{
-
 }
 .count-down-container{
   width: 50%;
@@ -88,11 +87,64 @@ body{
   border: none;
   padding: 15px 25px;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 30px;
+  background: #2453D4;
+  color: white;
+  font-family: "Inter Tight", sans-serif;
+  letter-spacing: 1.3px;
+  border-radius: 20px;
+
 }
 .banner-wording > p{
   margin-top: -20px;
 }
 
 
+@media screen and (max-width: 768px) {
+  .landing-banner-container{
+    height: 65dvh;
+  }
+  .navigation-container .nav-links {
+    display: none;
+  }
+  .navigation-container> img{
+    margin-left: 0px;
+  }
 
+  .banner-wording-container{
+    flex-direction: column;
+  }
+  .banner-wording{
+     flex-direction: column
+  }
+  .banner-wording{
+    width: auto;
+    padding:0  ;
+    height: auto;
+    text-align: center;
+  }
+  .banner-wording h1{
+    -webkit-text-stroke-width: 0px;
+    font-size: 34px;
+    line-height: 1.07em;
+  }
+  .banner-wording > button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  .first-header{
+    margin-bottom: -20px;
+  }
+  .count-down-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+  }
+  .banner-wording > p{
+     display: none  }
+
+  }

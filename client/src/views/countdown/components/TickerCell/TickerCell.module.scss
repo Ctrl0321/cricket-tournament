@@ -6,9 +6,18 @@
 
     > .tickerCellValue {
         font-size: 4rem;
+        font-weight: 600;
     }
     
     > .tickerCellLabel {
         font-style: italic;
+    }
+}
+@media screen and (max-width: 768px) {
+    .tickerCell {
+
+        > .tickerCellValue {
+            font-size: 2rem;
+        }
     }
 }

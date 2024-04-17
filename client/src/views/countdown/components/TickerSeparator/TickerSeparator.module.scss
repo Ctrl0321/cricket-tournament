@@ -1,3 +1,8 @@
 .separator {
     font-size: 4rem;
 }
+@media screen and (max-width: 768px) {
+    .separator {
+        font-size: 2rem;
+    }
+}
