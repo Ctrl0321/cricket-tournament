@@ -2,6 +2,9 @@ import { useState, useRef, useEffect } from 'react';
 import { LandingBanner } from './components/LaningBanner';
 import { MatchCard } from '../MatchCard/MatchCard';
 import PointsTabe from "./components/PointsTabe";
+import {Sponser} from "./components/Sponser";
+import {AboutUs} from "./components/AboutUs";
+import {Footer} from "../Footer/Footer";
 
 export const Home = () => {
     const [isScrollable, setIsScrollable] = useState(false);
@@ -48,6 +51,7 @@ export const Home = () => {
     return (
         <>
             <LandingBanner />
+            <Sponser/>
             <div className="recently-added-container">
                 <p
                     className={`scroll-arrows left-arrow ${!isScrollable || scrollPosition === 0 ? 'hidden' : ''}`}
@@ -71,6 +75,8 @@ export const Home = () => {
                 </p>
             </div>
             <PointsTabe/>
+            <AboutUs/>
+            <Footer/>
         </>
     );
 };

@@ -160,6 +160,12 @@ font-weight: 400
   font-family: "Inter Tight", sans-serif;
 
 }
+.points-table-container {
+  text-align: center;
+}
+.points-table-container > h2{
+  font-size: 40px;
+}
 
 .points-table-container > table > thead > tr:nth-child(1) th {
   padding: 5px;
@@ -205,10 +211,11 @@ font-weight: 400
 }
 td >img{
   width: 50px;
+  margin-right: 10px;
 }
 .teamName{
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   font-size: 15px;
 }
@@ -217,7 +224,51 @@ td >img{
   background-color: #ccc;
   text-align: center;
 }
-
+.sponsors-container h1{
+  text-align: center;
+}
+.about-us-container{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.about-us-container h1{
+  text-align: center;
+  font-size: 40px;
+}
+.about-us-container > img{
+  width: 200px;
+  margin:  auto 43%;
+}
+.footer-container{
+  background: #1E2129;
+  padding: 30px 70px 10px 70px;
+}
+.footer-container .first-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container .first-row img{
+  width: 170px
+}
+.footer-container .first-row h1{
+  font-size:47px;
+  width: 50%;
+  color: white;
+  font-family: "Inter Tight", sans-serif;
+  line-height: 1;
+}
+.social-links{
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+.collum{
+  margin: 0 80px;
+}
+.footer-container >p{
+  color: white;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -267,9 +318,23 @@ td >img{
   .banner-wording > p{
      display: none
   }
+  .match-card-container >img{
+    width: 60px;
+    margin:auto;
+  }
   .match-card-container{
-    min-width: 350px;
-    margin: auto 15px;
+    min-width: 300px;
+    margin: 10px 0 auto 20px;
+    height: 177px;
+  }
+  .match-card-container h1{
+   font-size: 26px;
+  }
+  .match-card-container h4{
+   font-size: 15px;
+  }
+  .match-card-container p{
+   font-size: 11px;
   }
   .recently-added-cards{
     margin-left: 0;
@@ -279,20 +344,59 @@ td >img{
    display: none;
   }
   .points-table-container > table > thead > tr:nth-child(2) th {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2em;
 
   }
   .points-table-container > table > thead > tr:nth-child(3) th {
-    font-size: 15px;
+    font-size: 12px;
     border: 1px solid #ddd;
   }
   .points-table tbody td {
-    font-size: 13px;
+    font-size: 12px;
+    padding: 10px 5px;
 
   }
   .teamName{
-
     font-size: 14px;
+  }
+  td >img{
+   display: none;
+  }
+  .points-table-container > h2{
+    font-size: 20px;
+  }
+  .about-us-container > img{
+    width: 200px;
+    margin:  auto ;
+  }
+  .footer-container{
+    padding:10px;
+  }
+  .footer-container .first-row{
+   flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-container .first-row h1{
+    font-size:25px;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 90%;
+  }
+  .social-links{
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+  .collum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container >p{
+    font-size: 10px;
+    text-align: center;
   }
   }

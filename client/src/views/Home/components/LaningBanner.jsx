@@ -1,17 +1,14 @@
-import {Navigation} from "../../Navigation/Navigation";
-import {FlippCountdown} from "./FlipCount";
-import {Ticker} from "../../countdown/components/Ticker";
-import {add} from "date-fns";
+import React from 'react';
+import { Navigation } from "../../Navigation/Navigation";
+import { Ticker } from "../../countdown/components/Ticker";
 
-export const LandingBanner=()=>{
-    const futureDate = add(new Date(), {
-        days: 6,
-        hours: 22,
-        minutes: 40
-    });
-    return(
+export const LandingBanner = () => {
+    // Specify your desired future date here
+    const futureDate = new Date('2024-04-28T16:31:43'); // Ensure the correct format and time zone
+
+    return (
         <div className="landing-banner-container">
-           <Navigation/>
+            <Navigation />
             <div className="banner-wording-container">
                 <div className="banner-wording">
                     <h1 className="first-header">Get ready for the game </h1>
@@ -20,9 +17,9 @@ export const LandingBanner=()=>{
                     <button>MORE INFORMATION</button>
                 </div>
                 <div className="count-down-container">
-                    <Ticker futureDate={futureDate}/>
+                    <Ticker futureDate={futureDate} />
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
