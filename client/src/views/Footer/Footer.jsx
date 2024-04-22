@@ -1,5 +1,17 @@
-import logo from "../../assets/Color.png"
-export  const Footer=()=>{
+import logo from "../../assets/Color.png";
+import {contents} from "../../utils/NavBarContents";
+import React from "react";
+
+export  const Footer=({ pointsTableRef, aboutUsRef,matchesUsRef,homeRef })=>{
+    const smoothScroll = (ref) => {
+        console.log("ref",ref)
+        if (ref.current) {
+            ref.current.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            });
+        }
+    };
     return(
         <div className="footer-container">
             <div className="first-row">
@@ -15,10 +27,28 @@ export  const Footer=()=>{
                 </div>
                 <div className="second-col collum">
                     <h4>MENU</h4>
-                    <p>Home</p>
-                    <p>Matches</p>
-                    <p>Points table</p>
-                    <p>About us</p>
+                    {contents.links.map((link, index) => {
+                        let targetRef = null;
+                        if (link.toLowerCase() === 'points table') {
+                            targetRef = pointsTableRef;
+                        } else if (link.toLowerCase() === 'about us') {
+                            targetRef = aboutUsRef;
+                        }
+                        else if (link.toLowerCase()==='matches'){
+                            targetRef=matchesUsRef
+                        }
+                        else if (link.toLowerCase()==='home'){
+                            targetRef=homeRef
+                        }
+                        return (
+                            <p
+                                key={index}
+                                onClick={() => smoothScroll(targetRef)}
+                            >
+                                {link}
+                            </p>
+                        );
+                    })}
                 </div>
                 <div className="mumbai-col collum">
                     <h4>SAY HELLO</h4>

@@ -1,5 +1,5 @@
 export const contents={
-    links:["Home","About","Events","Blogs"],
+    links:["Home","Matches","Points Table","About Us"],
     socialLinks:{
         instagram:"",
         facebook:"",

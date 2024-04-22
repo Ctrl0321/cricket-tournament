@@ -266,6 +266,10 @@ td >img{
 .collum{
   margin: 0 80px;
 }
+.collum > p{
+  cursor: pointer;
+
+}
 .footer-container >p{
   color: white;
 }

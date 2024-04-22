@@ -1,15 +1,19 @@
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { LandingBanner } from './components/LaningBanner';
 import { MatchCard } from '../MatchCard/MatchCard';
-import PointsTabe from "./components/PointsTabe";
-import {Sponser} from "./components/Sponser";
-import {AboutUs} from "./components/AboutUs";
-import {Footer} from "../Footer/Footer";
+import PointsTable from './components/PointsTabe';
+import { Sponser } from './components/Sponser';
+import { AboutUs } from './components/AboutUs';
+import { Footer } from '../Footer/Footer';
 
 export const Home = () => {
     const [isScrollable, setIsScrollable] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const containerRef = useRef(null);
+    const pointsTableRef = useRef(null);
+    const aboutUsRef = useRef(null);
+    const matchesUsRef = useRef(null);
+    const homeRef = useRef(null);
 
     const handleScroll = (scrollOffset) => {
         if (containerRef.current) {
@@ -50,9 +54,9 @@ export const Home = () => {
 
     return (
         <>
-            <LandingBanner />
+            <LandingBanner pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef}  />
             <Sponser/>
-            <div className="recently-added-container">
+            <div className="recently-added-container" ref={matchesUsRef}>
                 <p
                     className={`scroll-arrows left-arrow ${!isScrollable || scrollPosition === 0 ? 'hidden' : ''}`}
                     onClick={handlePrevButtonClick}
@@ -74,9 +78,10 @@ export const Home = () => {
                     &gt;
                 </p>
             </div>
-            <PointsTabe/>
-            <AboutUs/>
-            <Footer/>
+            <PointsTable pointsTableRef={pointsTableRef} />
+            <AboutUs aboutUsRef={aboutUsRef} />
+            <Footer pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef}  />
         </>
     );
 };
+

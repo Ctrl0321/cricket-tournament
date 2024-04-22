@@ -1,7 +1,7 @@
 import club from "../../../assets/D-Club-Logo-3.png"
-export  const AboutUs=()=>{
+export  const AboutUs=({aboutUsRef})=>{
     return(
-        <div className="about-us-container">
+        <div className="about-us-container" ref={aboutUsRef}>
             <h1>About Us</h1>
             <img src={club}/>
             <p>
