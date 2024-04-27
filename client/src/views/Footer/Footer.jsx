@@ -1,5 +1,5 @@
 import logo from "../../assets/Color.png";
-import {contents} from "../../utils/NavBarContents";
+import {contents,so} from "../../utils/NavBarContents";
 import React from "react";
 
 export  const Footer=({ pointsTableRef, aboutUsRef,matchesUsRef,homeRef })=>{
@@ -21,9 +21,9 @@ export  const Footer=({ pointsTableRef, aboutUsRef,matchesUsRef,homeRef })=>{
             <div className="social-links">
                 <div className="first-col collum">
                     <h4>SOCIALS</h4>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Instagram</p>
+                    {Object.entries(contents.socialLinks).map(([social, link]) => (
+                        <a key={social} href={link} target="_blank" rel="noopener noreferrer">{social}</a>
+                    ))}
                 </div>
                 <div className="second-col collum">
                     <h4>MENU</h4>

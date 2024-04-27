@@ -55,7 +55,7 @@ export const Home = () => {
     return (
         <>
             <LandingBanner pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef}  />
-            <Sponser/>
+            {/*<Sponser/>*/}
             <div className="recently-added-container" ref={matchesUsRef}>
                 <p
                     className={`scroll-arrows left-arrow ${!isScrollable || scrollPosition === 0 ? 'hidden' : ''}`}
