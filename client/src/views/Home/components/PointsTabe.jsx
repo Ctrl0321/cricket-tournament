@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import teamOne from "../../../assets/team_one.png"
+import teamOne from "../../../assets/TBA.jpg"
 
 const PointsTable = ({pointsTableRef}) => {
     const dummyData = [
-        { team: 'lucknow super giants', played: 5, win: 3, lost: 2, points: 6 },
-        { team: 'Team B', played: 5, win: 4, lost: 1, points: 8 },
-        { team: 'Team C', played: 5, win: 2, lost: 3, points: 4 },
-        { team: 'Team D', played: 5, win: 1, lost: 4, points: 2 },
-        { team: 'Team E', played: 5, win: 3, lost: 2, points: 6 },
+        { team: 'TBA', played: 0, win: 0, lost: 0, points: 0 },
+        { team: 'TBA', played: 0, win: 0, lost: 0, points: 0 },
+        { team: 'TBA', played: 0, win: 0, lost: 0, points: 0 },
+        { team: 'TBA', played: 0, win: 0, lost: 0, points: 0 },
+        { team: 'TBA', played: 0, win: 0, lost: 0, points: 0 },
     ];
 
     // Sorting function based on points and then team name

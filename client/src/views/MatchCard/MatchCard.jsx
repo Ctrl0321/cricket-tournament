@@ -1,14 +1,14 @@
-import teamOne from '../../assets/team_one.png'
-import teamTwo from '../../assets/team_two.png'
+import teamOne from '../../assets/TBA.jpg'
+import teamTwo from '../../assets/TBA.jpg'
 export const MatchCard=()=>{
     return(
         <div className="match-card-container">
             <img src={teamOne} alt="teamOne"/>
             <div className="score-container">
-                <h4>Aug 25,2023</h4>
-                <h1>140 -110 </h1>
+                <h4>TBA</h4>
+                <h1>0/0 - 0/0 </h1>
                 <h4>Premier league</h4>
-                <p>Colombo</p>
+                <p>TBA</p>
             </div>
             <img src={teamTwo} alt="teamTwo"/>
         </div>

@@ -4,7 +4,7 @@ import { Ticker } from "../../countdown/components/Ticker";
 
 export const LandingBanner = ({ pointsTableRef, aboutUsRef,matchesUsRef,homeRef }) => {
     // Specify your desired future date here
-    const futureDate = new Date('2024-04-28T16:31:43'); // Ensure the correct format and time zone
+    const futureDate = new Date('2024-06-28T16:31:43'); // Ensure the correct format and time zone
 
     return (
         <div className="landing-banner-container" ref={homeRef}>

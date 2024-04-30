@@ -16,7 +16,7 @@ export  const Footer=({ pointsTableRef, aboutUsRef,matchesUsRef,homeRef })=>{
         <div className="footer-container">
             <div className="first-row">
                 <img src={logo} alt="Logo"/>
-                <h1>We unite cricket fans from all over the globe</h1>
+                <h1>We unite cricket fans from <br/> all over the globe</h1>
             </div>
             <div className="social-links">
                 <div className="first-col collum">
