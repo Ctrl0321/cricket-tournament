@@ -260,7 +260,7 @@ td >img{
   align-items: center;
 }
 .footer-container .first-row img{
-  width: 170px
+  width: 130px
 }
 .footer-container .first-row h1{
   font-size:37px;
@@ -455,7 +455,7 @@ td >img{
     align-items: center;
   }
   .footer-container .first-row h1{
-    font-size:20px;
+    font-size:15px;
     text-align: center;
     letter-spacing: 5px;
     width: 90%;
@@ -469,9 +469,18 @@ td >img{
     align-items: center;
     margin: 0 15px;
   }
+  .collum > h4,
+  .collum > a,
+  .collum > p{
+    font-size: 13px;
+  }
   .footer-container >p{
     font-size: 10px;
     text-align: center;
+  }
+  .about-us-container{
+    padding: 50px 20px;
+    text-align: justify;
   }
   .about-us-container h1{
     text-align: center;
