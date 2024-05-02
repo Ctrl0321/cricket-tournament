@@ -78,7 +78,11 @@ export const Navigation = ({ pointsTableRef, aboutUsRef,matchesUsRef,homeRef }) 
                         }
                         return (
                             <div className="mobile-link"
-                                 onClick={() => smoothScroll(targetRef)}
+                                 onClick={() =>{
+                                     smoothScroll(targetRef);
+                                     setMobileNavOpen(false)
+                                 }}
+
                             >
                                 <a
                                     className="nav-link"
