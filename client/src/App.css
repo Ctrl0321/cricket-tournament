@@ -236,13 +236,15 @@ td >img{
 .sponsors-container h1{
   text-align: center;
 }
-.about-us-container{
+.about-us-container,
+.slpl-content-container{
   padding: 50px 70px;
   display: flex;
   flex-direction: column;
  align-items: center;
 }
-.about-us-container h1{
+.about-us-container h1,
+.slpl-content-container h1{
   text-align: center;
   font-size: 40px;
 }
@@ -351,6 +353,9 @@ td >img{
   .landing-banner-container{
     height: 65dvh;
   }
+  .navigation-container {
+    backdrop-filter: blur(0);
+  }
   .navigation-container .nav-links {
     display: none;
   }
@@ -400,7 +405,7 @@ td >img{
   }
   .match-card-container{
     min-width: 300px;
-    margin: 10px 0 auto 20px;
+    margin: 10px 0 10px 20px;
     height: 177px;
   }
   .match-card-container h1{
@@ -415,6 +420,7 @@ td >img{
   .recently-added-cards{
     margin-left: 0;
     margin-right: 0;
+    width: auto;
   }
   .scroll-arrows{
    display: none;
@@ -478,11 +484,13 @@ td >img{
     font-size: 10px;
     text-align: center;
   }
-  .about-us-container{
-    padding: 50px 20px;
+  .about-us-container,
+  .slpl-content-container{
+    padding: 50px 20px 0 20px;
     text-align: justify;
   }
-  .about-us-container h1{
+  .about-us-container h1,
+  .slpl-content-container h1{
     text-align: center;
     font-size: 20px;
   }

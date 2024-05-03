@@ -5,6 +5,7 @@ import PointsTable from './components/PointsTabe';
 import { Sponser } from './components/Sponser';
 import { AboutUs } from './components/AboutUs';
 import { Footer } from '../Footer/Footer';
+import {SLPL} from "./components/SLPL";
 
 export const Home = () => {
     const [isScrollable, setIsScrollable] = useState(false);
@@ -14,6 +15,7 @@ export const Home = () => {
     const aboutUsRef = useRef(null);
     const matchesUsRef = useRef(null);
     const homeRef = useRef(null);
+    const moreDetailsRef = useRef(null);
 
     const handleScroll = (scrollOffset) => {
         if (containerRef.current) {
@@ -21,6 +23,8 @@ export const Home = () => {
             setScrollPosition(containerRef.current.scrollLeft);
         }
     };
+
+
 
     useEffect(() => {
         const handleResize = () => {
@@ -54,7 +58,7 @@ export const Home = () => {
 
     return (
         <>
-            <LandingBanner pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef}  />
+            <LandingBanner pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef} moreDetailsRef={moreDetailsRef}   />
             {/*<Sponser/>*/}
             <div className="recently-added-container" ref={matchesUsRef}>
                 <p
@@ -80,6 +84,7 @@ export const Home = () => {
             </div>
             <PointsTable pointsTableRef={pointsTableRef} />
             <AboutUs aboutUsRef={aboutUsRef} />
+            <SLPL moreDetailsRef={moreDetailsRef}/>
             <Footer pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef}  />
         </>
     );
