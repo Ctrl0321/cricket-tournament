@@ -7,9 +7,10 @@ import style from './Ticker.module.scss';
 export const Ticker = ({ futureDate }) => {
     const { days, hours, minutes, seconds, isTimeUp } = useTicker(futureDate);
     const tickerContents = isTimeUp ? (
-        <div className={ style.timeIsUp }>Time is up!!!</div>
+        <div className={ style.timeIsUp }>Happening Now!!!</div>
     ) : (
         <>
+            {/*<TickerCell value={months} label="Months" />*/}
             <TickerCell value={days} label="Days" />
             <TickerSeparator />
             <TickerCell value={hours} label="Hours" />

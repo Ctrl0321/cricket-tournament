@@ -13,7 +13,8 @@ export const LandingBanner = ({ pointsTableRef, aboutUsRef,matchesUsRef,homeRef,
         }
     };
 
-    const futureDate = new Date('2024-06-28T16:31:43');
+    const futureDate = new Date('2024-06-06T16:31:43');
+    console.log("aat",futureDate)
 
     return (
         <div className="landing-banner-container" ref={homeRef}>
