@@ -7,6 +7,16 @@ import { AboutUs } from './components/AboutUs';
 import { Footer } from '../Footer/Footer';
 import {SLPL} from "./components/SLPL";
 
+
+const matches=[
+    {teamOneName:"TBA.jpg",teamTwoName:"TBA.jpg",score:"0/0 - 0/0",place:"TBA",date:"TBA"},
+    {teamOneName:"TBA.jpg",teamTwoName:"TBA.jpg",score:"0/0 - 0/0",place:"TBA",date:"TBA"},
+    {teamOneName:"TBA.jpg",teamTwoName:"TBA.jpg",score:"0/0 - 0/0",place:"TBA",date:"TBA"},
+    {teamOneName:"TBA.jpg",teamTwoName:"TBA.jpg",score:"0/0 - 0/0",place:"TBA",date:"TBA"},
+    {teamOneName:"TBA.jpg",teamTwoName:"TBA.jpg",score:"0/0 - 0/0",place:"TBA",date:"TBA"},
+    {teamOneName:"TBA.jpg",teamTwoName:"TBA.jpg",score:"0/0 - 0/0",place:"TBA",date:"TBA"},
+]
+
 export const Home = () => {
     const [isScrollable, setIsScrollable] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -59,7 +69,7 @@ export const Home = () => {
     return (
         <>
             <LandingBanner pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef} moreDetailsRef={moreDetailsRef}   />
-            {/*<Sponser/>*/}
+            <Sponser/>
             <div className="recently-added-container" ref={matchesUsRef}>
                 <p
                     className={`scroll-arrows left-arrow ${!isScrollable || scrollPosition === 0 ? 'hidden' : ''}`}
@@ -68,12 +78,9 @@ export const Home = () => {
                     &lt;
                 </p>
                 <div className="recently-added-cards" ref={containerRef}>
-                    <MatchCard />
-                    <MatchCard />
-                    <MatchCard />
-                    <MatchCard />
-                    <MatchCard />
-                    <MatchCard />
+                    {matches.map((match)=>
+                    <MatchCard teamOneName={match.teamOneName} teamTwoName={match.teamTwoName} score={match.score} date={match.date} place={match.place}/>
+                    )}
                 </div>
                 <p
                     className={`scroll-arrows right-arrow ${!isScrollable || scrollPosition >= (containerRef.current?.scrollWidth ?? 0) - (containerRef.current?.clientWidth ?? 0) ? 'hidden' : ''}`}
