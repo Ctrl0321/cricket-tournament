@@ -105,6 +105,10 @@ body{
 .banner-wording > p{
   margin-top: -20px;
 }
+.recently-cards-container h1{
+  font-size: 40px;
+  text-align: center;
+}
 .recently-added-container{
   display: flex;
   align-items: center;
@@ -233,10 +237,38 @@ td >img{
   background-color: #ccc;
   text-align: center;
 }
-.sponsors-container h1{
+.sponsors-container {
   text-align: center;
-  font-size: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
 }
+.sponsors-container h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.sponsors-group {
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+}
+
+.sponsors-group img {
+  display: inline-block;
+  width: 250px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 .second-para {
   max-height: 0;
   overflow: hidden;
@@ -321,9 +353,9 @@ td >img{
   margin-left: 70px;
   margin-right: 70px;
 }
-.sponsors-group > img{
-  width: 450px;
-}
+/*.sponsors-group > img{*/
+/*  width: 450px;*/
+/*}*/
 
 
 @media screen and (max-width: 768px) {
@@ -340,6 +372,10 @@ td >img{
   .menu-icon{
     display: block;
     margin-right: 15px;
+  }
+  .recently-cards-container h1{
+    font-size: 20px;
+    margin-bottom: -10px;
   }
   .mobile-nav{
     display: block;
@@ -469,6 +505,12 @@ td >img{
   .points-table {
     width: 95%;
   }
+
+  .points-table-container {
+    text-align: center;
+    padding-top: 25px;
+  }
+
   .points-table-container > table > thead > tr:nth-child(2) th {
     font-size: 14px;
     line-height: 1.2em;

@@ -52,7 +52,7 @@ export  const Footer=({ pointsTableRef, aboutUsRef,matchesUsRef,homeRef })=>{
                 </div>
                 <div className="mumbai-col collum">
                     <h4>SAY HELLO</h4>
-                    <p>info@email.com</p>
+                    <p>slpl@gmail.com</p>
                 </div>
             </div>
             <hr/>

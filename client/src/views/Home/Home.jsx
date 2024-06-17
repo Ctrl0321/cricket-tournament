@@ -68,31 +68,40 @@ export const Home = () => {
 
     return (
         <>
-            <LandingBanner pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef} moreDetailsRef={moreDetailsRef}   />
+            <LandingBanner pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef}
+                           homeRef={homeRef} moreDetailsRef={moreDetailsRef}/>
             <Sponser/>
-            <div className="recently-added-container" ref={matchesUsRef}>
-                <p
-                    className={`scroll-arrows left-arrow ${!isScrollable || scrollPosition === 0 ? 'hidden' : ''}`}
-                    onClick={handlePrevButtonClick}
-                >
-                    &lt;
-                </p>
-                <div className="recently-added-cards" ref={containerRef}>
-                    {matches.map((match)=>
-                    <MatchCard teamOneName={match.teamOneName} teamTwoName={match.teamTwoName} score={match.score} date={match.date} place={match.place}/>
-                    )}
+            <div className="recently-cards-container" ref={matchesUsRef}>
+                <h1>MATCHES</h1>
+
+                <div className="recently-added-container">
+                    <p
+                        className={`scroll-arrows left-arrow ${!isScrollable || scrollPosition === 0 ? 'hidden' : ''}`}
+                        onClick={handlePrevButtonClick}
+                    >
+                        &lt;
+                    </p>
+                    <div className="recently-added-cards" ref={containerRef}>
+                        {matches.map((match) =>
+                            <MatchCard teamOneName={match.teamOneName} teamTwoName={match.teamTwoName}
+                                       score={match.score}
+                                       date={match.date} place={match.place}/>
+                        )}
+                    </div>
+                    <p
+                        className={`scroll-arrows right-arrow ${!isScrollable || scrollPosition >= (containerRef.current?.scrollWidth ?? 0) - (containerRef.current?.clientWidth ?? 0) ? 'hidden' : ''}`}
+                        onClick={handleNextButtonClick}
+                    >
+                        &gt;
+                    </p>
                 </div>
-                <p
-                    className={`scroll-arrows right-arrow ${!isScrollable || scrollPosition >= (containerRef.current?.scrollWidth ?? 0) - (containerRef.current?.clientWidth ?? 0) ? 'hidden' : ''}`}
-                    onClick={handleNextButtonClick}
-                >
-                    &gt;
-                </p>
+
             </div>
-            <PointsTable pointsTableRef={pointsTableRef} />
-            <AboutUs aboutUsRef={aboutUsRef} />
+            <PointsTable pointsTableRef={pointsTableRef}/>
+            <AboutUs aboutUsRef={aboutUsRef}/>
             <SLPL moreDetailsRef={moreDetailsRef}/>
-            <Footer pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef} homeRef={homeRef}  />
+            <Footer pointsTableRef={pointsTableRef} aboutUsRef={aboutUsRef} matchesUsRef={matchesUsRef}
+                    homeRef={homeRef}/>
         </>
     );
 };
