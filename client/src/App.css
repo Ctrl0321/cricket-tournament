@@ -360,9 +360,114 @@ td >img{
   margin-left: 70px;
   margin-right: 70px;
 }
-/*.sponsors-group > img{*/
-/*  width: 450px;*/
-/*}*/
+
+.points-table-container {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.points-table {
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.points-table-container > h2 {
+  font-size: 40px;
+}
+
+.points-table-container > table > thead > tr:nth-child(1) th {
+  padding: 5px;
+  background-color: #2453d4;
+}
+
+.points-table-container > table > thead > tr:nth-child(2) th {
+  background-color: black;
+  padding: 20px 10px;
+  text-align: left;
+  color: white;
+  font-size: 19px;
+  line-height: 1.2em;
+}
+
+.points-table-container > table > thead > tr:nth-child(3) th {
+  font-size: 17px;
+  padding: 20px;
+  line-height: 1.2em;
+  border: 1px solid #ddd;
+}
+
+.points-table tbody td {
+  background-color: #f2f2f2;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 18px 20px;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #a5a6aa;
+  font-weight: 600;
+}
+
+.points-table-container > table.points-table tbody td:nth-child(2) {
+  color: #1e4aa1;
+  text-align: left;
+}
+
+.points-table-container > table.points-table thead tr:nth-child(3) th:nth-child(2) {
+  text-align: left;
+}
+
+td > img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.teamName {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer; /* Add cursor pointer for indicating clickable element */
+}
+
+.team-players {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 1200px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.team-players h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.team-players ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-players ul li {
+  padding: 10px 20px;
+  text-align: left;
+  color: black;
+  background: #e8e7e7;
+  margin-bottom: 20px;
+}
+
+
+.team-players.active {
+  max-height: 1600px;
+}
+
+
+
 
 
 @media screen and (max-width: 768px) {
