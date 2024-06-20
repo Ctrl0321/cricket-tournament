@@ -142,6 +142,13 @@ body{
 .score-container > p{
   color: #797C7F;
 }
+
+.score-container p:first-of-type {
+  margin-top: -15px;
+  color: black;
+}
+
+
 .score-container > h4{
 font-weight: 400
 }

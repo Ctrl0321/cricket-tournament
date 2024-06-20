@@ -1,0 +1,302 @@
+[
+  {
+    "teamOneName": "Ceylon Sports Club",
+    "teamOneImage": "/teams/SLPL -Ceylon Sports Club.png",
+    "teamTwoName": "Island Rangers",
+    "teamTwoImage": "/teams/SLPL - Island Rangers.png",
+    "score": "0/0 - 0/0",
+    "time": "6.00PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 22ND JUNE"
+  },
+  {
+    "teamOneName": "USCC Maroon",
+    "teamOneImage": "/teams/SLPL - USCC Maroon.png",
+    "teamTwoName": "Thambapanni Lions",
+    "teamTwoImage": "/teams/SLPL - thambapanni lions.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 2",
+    "date": "SAT 22ND JUNE"
+  },
+  {
+    "teamOneName": "Lion Hearts",
+    "teamOneImage": "/teams/SLPL - Lion hearts.png",
+    "teamTwoName": "UAE Lions",
+    "teamTwoImage": "/teams/SLPL - UAE LIONS.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 1",
+    "date": "SUNDAY 23RD JUNE"
+  },
+  {
+    "teamOneName": "Safa XI",
+    "teamOneImage": "/teams/SLPL - SAFA XI.png",
+    "teamTwoName": "Lankan Eagles",
+    "teamTwoImage": "/teams/SLPL - Lanka Eagles.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 23RD JUNE"
+  },
+  {
+    "teamOneName": "Ceylon Falcons",
+    "teamOneImage": "/teams/SLPL - Ceylon Falcons.png",
+    "teamTwoName": "Singha CC",
+    "teamTwoImage": "/teams/SLPL - Singha CC.png",
+    "score": "0/0 - 0/0",
+    "time": "8.30PM",
+    "place": "DC OVAL 1",
+    "date": "SUNDAY 23RD JUNE"
+  },
+  {
+    "teamOneName": "Scorpios",
+    "teamOneImage": "/teams/SLPL - scorpios.png",
+    "teamTwoName": "Kandy Sports Club",
+    "teamTwoImage": "/teams/SLPL - Kandy Sports Club.png",
+    "score": "0/0 - 0/0",
+    "time": "8.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 23RD JUNE"
+  },
+  {
+    "teamOneName": "Ceylon Sports Club",
+    "teamOneImage": "/teams/SLPL -Ceylon Sports Club.png",
+    "teamTwoName": "Singha CC",
+    "teamTwoImage": "/teams/SLPL - Singha CC.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 29TH JUNE"
+  },
+  {
+    "teamOneName": "Lion Hearts",
+    "teamOneImage": "/teams/SLPL - Lion hearts.png",
+    "teamTwoName": "Ceylon Falcons",
+    "teamTwoImage": "/teams/SLPL - Ceylon Falcons.png",
+    "score": "0/0 - 0/0",
+    "time": "9.00PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 29TH JUNE"
+  },
+  {
+    "teamOneName": "Island Rangers",
+    "teamOneImage": "/teams/SLPL - Island Rangers.png",
+    "teamTwoName": "UAE Lions",
+    "teamTwoImage": "/teams/SLPL - UAE LIONS.png",
+    "score": "0/0 - 0/0",
+    "time": "12.00AM",
+    "place": "DC OVAL 1",
+    "date": "SAT 29TH JUNE"
+  },
+  {
+    "teamOneName": "Safa XI",
+    "teamOneImage": "/teams/SLPL - SAFA XI.png",
+    "teamTwoName": "Kandy Sports Club",
+    "teamTwoImage": "/teams/SLPL - Kandy Sports Club.png",
+    "score": "0/0 - 0/0",
+    "time": "12.00AM",
+    "place": "DC OVAL 2",
+    "date": "SAT 29TH JUNE"
+  },
+  {
+    "teamOneName": "USCC Maroon",
+    "teamOneImage": "/teams/SLPL - USCC Maroon.png",
+    "teamTwoName": "Scorpios",
+    "teamTwoImage": "/teams/SLPL - scorpios.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 30TH JUNE"
+  },
+  {
+    "teamOneName": "Lankan Eagles",
+    "teamOneImage": "/teams/SLPL - Lanka Eagles.png",
+    "teamTwoName": "Thambapanni Lions",
+    "teamTwoImage": "/teams/SLPL - thambapanni lions.png",
+    "score": "0/0 - 0/0",
+    "time": "8.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 30TH JUNE"
+  },
+  {
+    "teamOneName": "Ceylon Sports Club",
+    "teamOneImage": "/teams/SLPL -Ceylon Sports Club.png",
+    "teamTwoName": "Ceylon Falcons",
+    "teamTwoImage": "/teams/SLPL - Ceylon Falcons.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 6TH JULY"
+  },
+  {
+    "teamOneName": "Singha CC",
+    "teamOneImage": "/teams/SLPL - Singha CC.png",
+    "teamTwoName": "UAE Lions",
+    "teamTwoImage": "/teams/SLPL - UAE LIONS.png",
+    "score": "0/0 - 0/0",
+    "time": "9.00PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 6TH JULY"
+  },
+  {
+    "teamOneName": "Safa XI",
+    "teamOneImage": "/teams/SLPL - SAFA XI.png",
+    "teamTwoName": "Thambapanni Lions",
+    "teamTwoImage": "/teams/SLPL - thambapanni lions.png",
+    "score": "0/0 - 0/0",
+    "time": "12.00AM",
+    "place": "DC OVAL 1",
+    "date": "SAT 6TH JULY"
+  },
+  {
+    "teamOneName": "Lion Hearts",
+    "teamOneImage": "/teams/SLPL - Lion hearts.png",
+    "teamTwoName": "Island Rangers",
+    "teamTwoImage": "/teams/SLPL - Island Rangers.png",
+    "score": "0/0 - 0/0",
+    "time": "12.00AM",
+    "place": "DC OVAL 2",
+    "date": "SAT 6TH JULY"
+  },
+  {
+    "teamOneName": "Scorpios",
+    "teamOneImage": "/teams/SLPL - scorpios.png",
+    "teamTwoName": "Lankan Eagles",
+    "teamTwoImage": "/teams/SLPL - Lanka Eagles.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 7TH JULY"
+  },
+  {
+    "teamOneName": "USCC Maroon",
+    "teamOneImage": "/teams/SLPL - USCC Maroon.png",
+    "teamTwoName": "Kandy Sports Club",
+    "teamTwoImage": "/teams/SLPL - Kandy Sports Club.png",
+    "score": "0/0 - 0/0",
+    "time": "8.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 7TH JULY"
+  },
+  {
+    "teamOneName": "Lankan Eagles",
+    "teamOneImage": "/teams/SLPL - Lanka Eagles.png",
+    "teamTwoName": "Kandy Sports Club",
+    "teamTwoImage": "/teams/SLPL - Kandy Sports Club.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 13TH JULY"
+  },
+  {
+    "teamOneName": "Ceylon Sports Club",
+    "teamOneImage": "/teams/SLPL -Ceylon Sports Club.png",
+    "teamTwoName": "Lion Hearts",
+    "teamTwoImage": "/teams/SLPL - Lion hearts.png",
+    "score": "0/0 - 0/0",
+    "time": "9.00PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 13TH JULY"
+  },
+  {
+    "teamOneName": "Scorpios",
+    "teamOneImage": "/teams/SLPL - scorpios.png",
+    "teamTwoName": "Thambapanni Lions",
+    "teamTwoImage": "/teams/SLPL - thambapanni lions.png",
+    "score": "0/0 - 0/0",
+    "time": "12.00AM",
+    "place": "DC OVAL 1",
+    "date": "SAT 13TH JULY"
+  },
+  {
+    "teamOneName": "Island Rangers",
+    "teamOneImage": "/teams/SLPL - Island Rangers.png",
+    "teamTwoName": "Singha CC",
+    "teamTwoImage": "/teams/SLPL - Singha CC.png",
+    "score": "0/0 - 0/0",
+    "time": "12.00AM",
+    "place": "DC OVAL 2",
+    "date": "SAT 13TH JULY"
+  },
+  {
+    "teamOneName": "USCC Maroon",
+    "teamOneImage": "/teams/SLPL - USCC Maroon.png",
+    "teamTwoName": "Safa XI",
+    "teamTwoImage": "/teams/SLPL - SAFA XI.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 14TH JULY"
+  },
+  {
+    "teamOneName": "Ceylon Falcons",
+    "teamOneImage": "/teams/SLPL - Ceylon Falcons.png",
+    "teamTwoName": "UAE Lions",
+    "teamTwoImage": "/teams/SLPL - UAE LIONS.png",
+    "score": "0/0 - 0/0",
+    "time": "8.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 14TH JULY"
+  },
+  {
+    "teamOneName": "Lion Hearts",
+    "teamOneImage": "/teams/SLPL - Lion hearts.png",
+    "teamTwoName": "Singha CC",
+    "teamTwoImage": "/teams/SLPL - Singha CC.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 20TH JULY"
+  },
+  {
+    "teamOneName": "Ceylon Sports Club",
+    "teamOneImage": "/teams/SLPL -Ceylon Sports Club.png",
+    "teamTwoName": "UAE Lions",
+    "teamTwoImage": "/teams/SLPL - UAE LIONS.png",
+    "score": "0/0 - 0/0",
+    "time": "9.00PM",
+    "place": "DC OVAL 1",
+    "date": "SAT 20TH JULY"
+  },
+  {
+    "teamOneName": "Island Rangers",
+    "teamOneImage": "/teams/SLPL - Island Rangers.png",
+    "teamTwoName": "Ceylon Falcons",
+    "teamTwoImage": "/teams/SLPL - Ceylon Falcons.png",
+    "score": "0/0 - 0/0",
+    "time": "12.00AM",
+    "place": "DC OVAL 1",
+    "date": "SAT 20TH JULY"
+  },
+  {
+    "teamOneName": "USCC Maroon",
+    "teamOneImage": "/teams/SLPL - USCC Maroon.png",
+    "teamTwoName": "Lankan Eagles",
+    "teamTwoImage": "/teams/SLPL - Lanka Eagles.png",
+    "score": "0/0 - 0/0",
+    "time": "12.00AM",
+    "place": "DC OVAL 2",
+    "date": "SAT 20TH JULY"
+  },
+  {
+    "teamOneName": "Scorpios",
+    "teamOneImage": "/teams/SLPL - scorpios.png",
+    "teamTwoName": "Safa XI",
+    "teamTwoImage": "/teams/SLPL - SAFA XI.png",
+    "score": "0/0 - 0/0",
+    "time": "5.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 21ST JULY"
+  },
+  {
+    "teamOneName": "Thambapanni Lions",
+    "teamOneImage": "/teams/SLPL - thambapanni lions.png",
+    "teamTwoName": "Kandy Sports Club",
+    "teamTwoImage": "/teams/SLPL - Kandy Sports Club.png",
+    "score": "0/0 - 0/0",
+    "time": "8.30PM",
+    "place": "DC OVAL 2",
+    "date": "SUNDAY 21ST JULY"
+  }
+]

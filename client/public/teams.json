@@ -1,0 +1,18 @@
+{
+  "groupA": [
+    { "team": "Kandy Sports Club", "logo": "/teams/SLPL - Kandy Sports Club.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "Lankan Eagles", "logo": "/teams/SLPL - Lanka Eagles.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "Safa XI", "logo": "/teams/SLPL - SAFA XI.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "Scorpios", "logo": "/teams/SLPL - scorpios.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "Thambapanni Lions", "logo": "/teams/SLPL - thambapanni lions.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "USCC Maroon", "logo": "/teams/SLPL - USCC Maroon.png", "played": 0, "win": 0, "lost": 0, "points": 0 }
+  ],
+  "groupB": [
+    { "team": "Ceylon Falcons", "logo": "/teams/SLPL - Ceylon Falcons.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "Ceylon Sports Club", "logo": "/teams/SLPL -Ceylon Sports Club.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "Island Rangers", "logo": "/teams/SLPL - Island Rangers.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "Lion Hearts", "logo": "/teams/SLPL - Lion hearts.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "Singha CC", "logo": "/teams/SLPL - Singha CC.png", "played": 0, "win": 0, "lost": 0, "points": 0 },
+    { "team": "UAE Lions", "logo": "/teams/SLPL - UAE LIONS.png", "played": 0, "win": 0, "lost": 0, "points": 0 }
+  ]
+}

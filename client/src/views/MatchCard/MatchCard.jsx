@@ -1,15 +1,16 @@
 
-export const MatchCard=({teamOneName,teamTwoName,score,place,date})=>{
+export const MatchCard=({match})=>{
     return(
         <div className="match-card-container">
-            <img src={require(`../../assets/${teamOneName}`)} alt="teamOne"/>
+            <img src={match.teamOneImage} alt="teamOne"/>
             <div className="score-container">
-                <h4>{date}</h4>
-                <h1>{score}</h1>
+                <h4>{match.date}</h4>
+                <p>{match.time}</p>
+                <h1>{match.score}</h1>
                 <h4>Premier league</h4>
-                <p>{place}</p>
+                <p>{match.place}</p>
             </div>
-            <img src={require(`../../assets/${teamOneName}`)} alt="teamTwo"/>
+            <img src={match.teamTwoImage} alt="teamTwo"/>
         </div>
     )
 }
