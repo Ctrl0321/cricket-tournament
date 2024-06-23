@@ -118,10 +118,10 @@
     {
       "team": "Thambapanni Lions",
       "logo": "/teams/SLPL - thambapanni lions.png",
-      "played": 0,
-      "win": 0,
+      "played": 1,
+      "win": 1,
       "lost": 0,
-      "points": 0,
+      "points": 2,
       "players": [
         "Samal Udawaththa",
         "krishan Lahiru",
@@ -147,9 +147,9 @@
     {
       "team": "USCC Maroon",
       "logo": "/teams/SLPL - USCC Maroon.png",
-      "played": 0,
+      "played": 1,
       "win": 0,
-      "lost": 0,
+      "lost": 1,
       "points": 0,
       "players": [
         "Harshaka Kumarasinghe",
@@ -207,9 +207,9 @@
     {
       "team": "Ceylon Sports Club",
       "logo": "/teams/SLPL -Ceylon Sports Club.png",
-      "played": 0,
+      "played": 1,
       "win": 0,
-      "lost": 0,
+      "lost": 1,
       "points": 0,
       "players": [
         "Sasan Lakmal Herath",
@@ -236,10 +236,10 @@
     {
       "team": "Island Rangers",
       "logo": "/teams/SLPL - Island Rangers.png",
-      "played": 0,
-      "win": 0,
+      "played": 1,
+      "win": 1,
       "lost": 0,
-      "points": 0,
+      "points": 2,
       "players": [
         "Arshad Junaid",
         "Malaka Wanasinghe",

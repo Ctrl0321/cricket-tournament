@@ -40,7 +40,7 @@ const PointsTable = ({ pointsTableRef, data, title }) => {
                 <tr>
                     <th>Pos</th>
                     <th>Team</th>
-                    <th>E</th>
+                    <th>MP</th>
                     <th>W</th>
                     <th>L</th>
                     <th>P</th>

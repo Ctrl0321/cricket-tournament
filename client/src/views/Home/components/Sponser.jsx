@@ -16,16 +16,16 @@ export const Sponser = () => {
         <div className="sponsors-container">
             <h1>OUR SPONSORS</h1>
             <div className="sponsors-group">
-                <img src={Tambapanni} alt="Thambapanni"/>
                 <img src={Siraj} alt="Siraj"/>
+                <img src={Tambapanni} alt="Thambapanni"/>
                 <img src={Lion} alt="Lion"/>
                 <img src={HOR} alt="Hor"/>
-                <img src={Tambapanni} alt="Thambapanni"/>
                 <img src={Siraj} alt="Siraj"/>
+                <img src={Tambapanni} alt="Thambapanni"/>
                 <img src={Lion} alt="Lion"/>
                 <img src={HOR} alt="Hor"/>
-                <img src={Tambapanni} alt="Thambapanni"/>
                 <img src={Siraj} alt="Siraj"/>
+                <img src={Tambapanni} alt="Thambapanni"/>
                 <img src={Lion} alt="Lion"/>
                 <img src={HOR} alt="Hor"/>
             </div>
