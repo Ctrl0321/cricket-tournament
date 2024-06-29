@@ -264,7 +264,8 @@ td >img{
   white-space: nowrap;
   position: relative;
 }
-.sponsors-container h1{
+
+.sponsors-container h1 {
   font-size: 40px;
   margin-bottom: 10px;
 }
@@ -286,10 +287,9 @@ td >img{
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
-
 .second-para {
   max-height: 0;
   overflow: hidden;
@@ -485,14 +485,14 @@ td > img {
 
 
 @media screen and (max-width: 768px) {
-  .sponsors-container h1{
-   font-size: 20px;
+  .sponsors-container h1 {
+    font-size: 20px;
   }
-  .sponsors-group{
+  .sponsors-group {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .sponsors-group > img{
+  .sponsors-group img {
     width: 145px;
   }
   .menu-icon{
