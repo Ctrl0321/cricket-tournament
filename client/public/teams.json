@@ -2,6 +2,7 @@
   "groupA": [
     {
       "team": "Kandy Sports Club",
+      "shortTeam": "KSC",
       "logo": "/teams/SLPL - Kandy Sports Club.png",
       "played": 1,
       "win": 0,
@@ -31,6 +32,7 @@
     },
     {
       "team": "Lankan Eagles",
+      "shortTeam": "LE",
       "logo": "/teams/SLPL - Lanka Eagles.png",
       "played": 1,
       "win": 0,
@@ -61,6 +63,7 @@
     },
     {
       "team": "Safa XI",
+      "shortTeam": "S XI",
       "logo": "/teams/SLPL - SAFA XI.png",
       "played": 1,
       "win": 1,
@@ -91,6 +94,7 @@
     },
     {
       "team": "Scorpios",
+      "shortTeam": "SP",
       "logo": "/teams/SLPL - scorpios.png",
       "played": 1,
       "win": 1,
@@ -121,6 +125,7 @@
     },
     {
       "team": "Thambapanni Lions",
+      "shortTeam": "TPL",
       "logo": "/teams/SLPL - thambapanni lions.png",
       "played": 1,
       "win": 1,
@@ -151,6 +156,7 @@
     },
     {
       "team": "USCC Maroon",
+      "shortTeam": "USCCM",
       "logo": "/teams/SLPL - USCC Maroon.png",
       "played": 1,
       "win": 0,
@@ -183,6 +189,7 @@
   "groupB": [
     {
       "team": "Ceylon Falcons",
+      "shortTeam": "CF",
       "logo": "/teams/SLPL - Ceylon Falcons.png",
       "played": 1,
       "win": 1,
@@ -213,6 +220,7 @@
     },
     {
       "team": "Ceylon Sports Club",
+      "shortTeam": "CSC",
       "logo": "/teams/SLPL -Ceylon Sports Club.png",
       "played": 1,
       "win": 1,
@@ -243,6 +251,7 @@
     },
     {
       "team": "Island Rangers",
+      "shortTeam": "IR",
       "logo": "/teams/SLPL - Island Rangers.png",
       "played": 1,
       "win": 0,
@@ -273,6 +282,7 @@
     },
     {
       "team": "Lion Hearts",
+      "shortTeam": "LH",
       "logo": "/teams/SLPL - Lion hearts.png",
       "played": 1,
       "win": 0,
@@ -303,12 +313,13 @@
     },
     {
       "team": "Singha CC",
+      "shortTeam": "SCC",
       "logo": "/teams/SLPL - Singha CC.png",
       "played": 1,
       "win": 0,
       "lost": 1,
-      "points": -0.850,
-      "NRR": 0,
+      "points": 0,
+      "NRR": -0.850,
       "players": [
         "Bruce Fernando",
         "Gihan Chathuranga",
@@ -333,6 +344,7 @@
     },
     {
       "team": "UAE Lions",
+      "shortTeam": "UAEL",
       "logo": "/teams/SLPL - UAE LIONS.png",
       "played": 1,
       "win": 1,

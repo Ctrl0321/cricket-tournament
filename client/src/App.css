@@ -253,6 +253,12 @@ td >img{
   align-items: center;
   font-size: 15px;
 }
+.shortTeamName{
+  display: none;
+}
+.fullTeamName{
+ display: inline-block;
+}
 
 .points-table th[colspan="5"] {
   background-color: #ccc;
@@ -648,14 +654,15 @@ td > img {
   }
   .points-table tbody td {
     font-size: 12px;
-    padding: 10px 5px;
+    padding: 8px 0px;
 
   }
   .teamName{
     font-size: 14px;
   }
   td >img{
-   display: none;
+   /*display: none;*/
+    width: 15px;
   }
   .points-table-container > h2{
     font-size: 20px;
@@ -719,5 +726,12 @@ td > img {
     position: absolute;
     top: 7%;
     right: 4%;
+  }
+
+  .shortTeamName{
+    display: inline-block;
+  }
+  .fullTeamName{
+    display: none;
   }
   }

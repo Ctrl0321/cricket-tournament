@@ -26,10 +26,8 @@ const PointsTable = ({ pointsTableRef, data, title }) => {
         setExpandedTeam(expandedTeam === team ? null : team);
     };
 
-
     return (
         <div className="points-table-container" ref={pointsTableRef}>
-            {/*<p>{title}</p>*/}
             <h2>SRILANKAN PREMIER LEAGUE</h2>
             <table className="points-table">
                 <thead>
@@ -40,14 +38,13 @@ const PointsTable = ({ pointsTableRef, data, title }) => {
                     <th colSpan={7}>{title}</th>
                 </tr>
                 <tr>
-                    <th>Pos</th>
+                    <th></th>
                     <th>Team</th>
                     <th>MP</th>
                     <th>W</th>
                     <th>L</th>
                     <th>P</th>
                     <th>NRR</th>
-
                 </tr>
                 </thead>
                 <tbody>
@@ -57,7 +54,9 @@ const PointsTable = ({ pointsTableRef, data, title }) => {
                             <tr onClick={() => handleTeamClick(teamData.team)}>
                                 <td>{index + 1}</td>
                                 <td className="teamName">
-                                    <img src={teamData.logo} alt={teamData.team} /> {teamData.team}
+                                    <img src={teamData.logo} alt={teamData.team} />
+                                    <span className="fullTeamName">{teamData.team}</span>
+                                    <span className="shortTeamName">{teamData.shortTeam}</span>
                                 </td>
                                 <td>{teamData.played}</td>
                                 <td>{teamData.win}</td>
@@ -67,11 +66,11 @@ const PointsTable = ({ pointsTableRef, data, title }) => {
                             </tr>
                             {expandedTeam === teamData.team && (
                                 <tr>
-                                    <td colSpan={6}>
+                                    <td colSpan={7}>
                                         <div className="team-players">
                                             <h3>{teamData.team} Players</h3>
                                             <ul>
-                                                {sortedData.find(team => team.team === teamData.team).players.map((player, idx) => (
+                                                {teamData.players.map((player, idx) => (
                                                     <li key={idx}>{player}</li>
                                                 ))}
                                             </ul>
