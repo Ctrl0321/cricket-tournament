@@ -486,6 +486,66 @@ td > img {
   max-height: 1600px;
 }
 
+.header-part{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.stats-full-container{
+  display: flex;
+  justify-content: center;
+}
+
+.top-run-scorer{
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: auto 50px;
+  border: 1px solid #171717;
+}
+.body-part{
+  background: #171717;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.score-status-container{
+  text-align: right;
+}
+.score-status-container p{
+  font-size: 25px;
+  color: white;
+  margin: 0;
+}
+.details-container p{
+  margin-top: -15px;
+  font-size: 12px;
+}
+
+.score-more-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+
+}
+.score-more-details p{
+  font-size: 10px;
+  color: white;
+  margin-left: 10px;
+}
+
+.player-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 0 20px;
+
+}
+
 
 
 

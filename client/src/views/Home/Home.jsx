@@ -6,6 +6,7 @@ import { Sponser } from './components/Sponser';
 import { AboutUs } from './components/AboutUs';
 import { Footer } from '../Footer/Footer';
 import {SLPL} from "./components/SLPL";
+import {Stats} from "./components/Stats";
 
 
 export const Home = () => {
@@ -20,6 +21,8 @@ export const Home = () => {
     const [matches, setMatches] = useState([]);
     const [groupA, setGroupA] = useState([]);
     const [groupB, setGroupB] = useState([]);
+    const [battingStats, setBattingStats] = useState([]);
+    const [bowlingStats, setBowlingStats] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -31,6 +34,11 @@ export const Home = () => {
             const teamsData = await teamsResponse.json();
             setGroupA(teamsData.groupA);
             setGroupB(teamsData.groupB);
+
+            const statsResponse = await fetch('/stats.json');
+            const statsData = await statsResponse.json();
+            setBattingStats(statsData.batting);
+            setBowlingStats(statsData.bowling);
         };
 
         fetchData();
@@ -105,6 +113,7 @@ export const Home = () => {
                 </div>
 
             </div>
+            <Stats battingStats={battingStats} bowlingStats={bowlingStats}/>
             <PointsTable pointsTableRef={pointsTableRef} data={groupA} title="GROUP A"/>
             <PointsTable data={groupB} title="GROUP B"/>
             <AboutUs aboutUsRef={aboutUsRef}/>

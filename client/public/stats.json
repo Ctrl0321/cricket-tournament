@@ -1,0 +1,75 @@
+{
+  "batting": [
+    {
+      "name": "THARAKA DANANJAYA",
+      "team": "UAE LIONS",
+      "runs": 239,
+      "average": 239,
+      "strikeRate": 182.44
+    },
+    {
+      "name": "SHEHAN THANDAKKARA",
+      "team": "LION HEARTS CRICKET CLUB",
+      "runs": 138,
+      "average": 69,
+      "strikeRate": 131.43
+    },
+    {
+      "name": "ERANGA JAYASINGHE",
+      "team": "CEYLON FALCONS",
+      "runs": 124,
+      "average": 41.33,
+      "strikeRate": 130.53
+    },
+    {
+      "name": "JAAN JAYASINGHA",
+      "team": "CEYLON FALCONS",
+      "runs": 123,
+      "average": 41,
+      "strikeRate": 133.70
+    },{
+      "name": "LAHIRU MALWATHA",
+      "team": "LANKA EAGLES",
+      "runs": 112,
+      "average": 37.33,
+      "strikeRate": 138.27
+    }
+  ],
+  "bowling": [
+    {
+      "name": "JOHAN UDITH",
+      "team": "CEYLON FALCONS",
+      "wickets": 7,
+      "average": 10.29,
+      "economy": 6.35
+    },
+    {
+      "name": "SITHUM AKILANKA",
+      "team": "CEYLON SPORTS CLUB",
+      "wickets": 6,
+      "average": 10.5,
+      "economy": 5.25
+    },
+    {
+      "name": "MADHAWA SANJEEWA",
+      "team": "CEYLON FALCONS",
+      "wickets": 6,
+      "average": 10.67,
+      "economy": 5.25
+    },
+    {
+      "name": "DILAN SURAWEERA",
+      "team": "CEYLON FALCONS",
+      "wickets": 6,
+      "average": 12.83,
+      "economy": 6.42
+    },
+    {
+      "name": "RASHMIKA SIRIWARDENA",
+      "team": "KANDY SPORTS CLUB",
+      "wickets": 6,
+      "average": 16,
+      "economy": 8
+    }
+  ]
+}
