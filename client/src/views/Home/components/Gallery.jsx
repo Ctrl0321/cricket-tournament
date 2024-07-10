@@ -18,8 +18,10 @@ export const Gallery = () => {
     return (
         <>
             <div className="gallery-header-component">
-                <Navigation />
+                <Navigation/>
             </div>
+            <h1 className="gallery-header">SLPL 2024</h1>
+
             <div className="gallery-body-container">
                 {galleryData.map((gallery, index) => (
                     <GalleryCard

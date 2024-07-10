@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:wght@200;400;500;600;700&display=swap');
 body{
-  font-family: "Inter Tight", sans-serif;
+  /*font-family: "Inter Tight", sans-serif;*/
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 .navigation-container {
   display: flex;
@@ -494,7 +496,22 @@ td > img {
 
 .stats-full-container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+.stats-full-container h1{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.stats-container{
+  display: flex;
+  justify-content: center;
+}
+.gallery-header{
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
 }
 
 .top-run-scorer{
@@ -577,7 +594,7 @@ td > img {
 background: #171717;
 }
 .gallery-body-container{
-  padding: 50px 6%;
+  padding: 15px 6%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -883,7 +900,7 @@ background: #171717;
     right: 4%;
   }
   .recently-added-container{
-    margin-bottom: 50px;
+    margin-bottom: 18px;
   }
 
   .shortTeamName{
@@ -892,8 +909,12 @@ background: #171717;
   .fullTeamName{
     display: none;
   }
-  .stats-full-container{
+  .stats-container{
    flex-direction: column;
+  }
+  .stats-full-container h1{
+    font-size: 25px;
+    margin-bottom: 35px;
   }
 
   .top-run-scorer{
