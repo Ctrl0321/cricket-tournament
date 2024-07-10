@@ -9,9 +9,12 @@ const StatsCard = ({ heading, players, type }) => {
             <div className="body-part">
                 {players.map((player, index) => (
                     <div key={index} className="player-container">
-                        <div className="details-container">
-                            <h3>{player.name}</h3>
-                            <p>{player.team}</p>
+                        <div className="number-container">
+                            <p>{index+1}</p>
+                            <div className="details-container">
+                                <h3>{player.name}</h3>
+                                <p>{player.team}</p>
+                            </div>
                         </div>
                         {type === 'batting' ? (
                             <div className="score-status-container">

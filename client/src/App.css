@@ -502,10 +502,10 @@ td > img {
   width: 400px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin: auto 50px;
-  border: 1px solid #171717;
+  border: 1px solid #996515;
 }
 .body-part{
-  background: #171717;
+  background: #996515;
   color: white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -542,9 +542,86 @@ td > img {
   align-items: center;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  padding: 0 20px;
+  padding: 0 10px;
 
 }
+
+.number-container{
+  display: flex;
+  align-items: center;
+}
+.number-container > p{
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  background: #016795;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-container:nth-of-type(1) .number-container > p {
+  margin-left: -22px;
+  width: 30px;
+  height: 30px;
+  background: #016795;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.gallery-header-component{
+background: #171717;
+}
+.gallery-body-container{
+  padding: 50px 6%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-card-container{
+  width: 320px;
+  height: 252px;
+  background: #016795;
+  border-radius: 20px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.gallery-card-container img{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 320px;
+  height: 200px;
+  margin-bottom: -4px;
+}
+.gallery-body-content-container{
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.gallery-body-content-container h3{
+  color: white;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+.gallery-body-content-container button{
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 600;
+  color: #016795;
+  letter-spacing: 1px;
+}
+
+
 
 
 
@@ -590,9 +667,26 @@ td > img {
     justify-content: space-between;
     align-items: center;
   }
+
+
   .mobile-link > svg{
     margin-right: 15px;
   }
+
+  .mobile-nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    transition: all 0.3s ease-out 100ms;
+    position: relative;
+    padding: 20px 0px;
+    font-weight: 600;
+    font-family: "Inter Tight", sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
   .close-mobile-nav {
     display: flex;
     justify-content: space-between;
@@ -614,6 +708,7 @@ td > img {
     padding: 20px 0px;
     font-weight: 600;
     font-family: "Inter Tight", sans-serif;
+
 
   }
   .open-nav {
@@ -787,6 +882,9 @@ td > img {
     top: 7%;
     right: 4%;
   }
+  .recently-added-container{
+    margin-bottom: 50px;
+  }
 
   .shortTeamName{
     display: inline-block;
@@ -794,4 +892,28 @@ td > img {
   .fullTeamName{
     display: none;
   }
+  .stats-full-container{
+   flex-direction: column;
+  }
+
+  .top-run-scorer{
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: auto;
+    border: 1px solid #996515;
+    margin-bottom: 50px;
+  }
+  .header-part h2{
+    font-size: 20px;
+    font-family: "Inter Tight", sans-serif;
+
+  }
+  .details-container h3{
+    font-size: 15px;
+  }
+  .gallery-header-component{
+    background: #ece9e9;
+  }
+
   }
