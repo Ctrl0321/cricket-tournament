@@ -9,7 +9,7 @@ export const MatchCard = ({ match }) => {
                 <h4>{match.date}</h4>
                 <p>{match.time}</p>
                 <h1>{match.score}</h1>
-                <h4>Premier League</h4>
+                <h4>{match.type ?? "LEAGUE MATCH"}</h4>
                 <p>{match.place}</p>
             </div>
             {match.win === 2 && <img className="win-icon win2" src={Icon} alt="win2" />}
